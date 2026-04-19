@@ -1,0 +1,28 @@
+<h2>Liste des contrats</h2>
+
+<p>loading = {{ loading }}</p>
+<p>nombre de contrats = {{ contracts.length }}</p>
+<p>error = {{ errorMessage }}</p>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; margin-top: 10px;">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Numéro</th>
+      <th>Souscripteur</th>
+      <th>Type</th>
+      <th>Statut</th>
+      <th>Date de début</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contract of contracts">
+      <td>{{ contract.id }}</td>
+      <td>{{ contract.contractNumber }}</td>
+      <td>{{ contract.subscriberName }}</td>
+      <td>{{ contract.contractType }}</td>
+      <td>{{ contract.status }}</td>
+      <td>{{ contract.startDate }}</td>
+    </tr>
+  </tbody>
+</table>

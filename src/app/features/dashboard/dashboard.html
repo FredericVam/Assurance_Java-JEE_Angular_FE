@@ -1,0 +1,39 @@
+<h1>Portail Assurance IARD</h1>
+
+<nav style="margin-bottom: 20px;">
+  <a routerLink="/">Accueil</a> |
+  <a routerLink="/contracts">Contrats</a> |
+  <a routerLink="/claims">Sinistres</a> |
+  <a routerLink="/claims/new">Déclarer un sinistre</a> |
+  <a routerLink="/handlers">Gestionnaires</a>
+</nav>
+
+<hr>
+
+<h2>Tableau de bord</h2>
+
+<p>Bienvenue sur le portail de gestion des contrats et sinistres.</p>
+
+<div style="display: flex; gap: 20px; margin-top: 20px;">
+  <div style="border: 1px solid #ccc; padding: 10px;">
+    <h3>Contrats</h3>
+    <p>Consulter les contrats d’assurance.</p>
+    <a routerLink="/contracts">Accéder</a>
+  </div>
+
+  <div style="border: 1px solid #ccc; padding: 10px;">
+    <h3>Sinistres</h3>
+    <p>Suivre les dossiers sinistres.</p>
+    <a routerLink="/claims">Accéder</a>
+  </div>
+
+  <div style="border: 1px solid #ccc; padding: 10px;">
+    <h3>Déclaration</h3>
+    <p>Déclarer un nouveau sinistre.</p>
+    <a routerLink="/claims/new">Accéder</a>
+  </div>
+</div>
+
+<button (click)="testerBackend()">Tester backend</button>
+
+<p>Réponse backend : {{ message }}</p>
