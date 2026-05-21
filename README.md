@@ -1,59 +1,45 @@
-# ClaimsManagementFront
+ClaimsManagementFront
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Ce projet a été généré à l’aide de Angular CLI version 21.2.7.
 
-## Development server
+Serveur de développement
 
-To start a local development server, run:
+Pour démarrer un serveur de développement local, exécutez :
 
-```bash
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Une fois le serveur lancé, ouvrez votre navigateur et accédez à l’adresse http://localhost:4200/.
+L’application se rechargera automatiquement chaque fois que vous modifiez un fichier source.
 
-## Code scaffolding
+Génération de code
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Angular CLI inclut des outils puissants de génération de code.
 
-```bash
+Pour générer un nouveau composant, exécutez :
+
 ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Pour obtenir la liste complète des générateurs disponibles (comme components, directives ou pipes), exécutez :
 
-```bash
 ng generate --help
-```
+Compilation (Build)
 
-## Building
+Pour compiler le projet, exécutez :
 
-To build the project run:
-
-```bash
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Cela compilera votre projet et stockera les fichiers générés dans le dossier dist/.
+Par défaut, la compilation en production optimise votre application pour la performance et la rapidité.
 
-## Running unit tests
+Exécution des tests unitaires
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Pour exécuter les tests unitaires avec le framework Vitest, utilisez la commande suivante :
 
-```bash
 ng test
-```
+Exécution des tests de bout en bout
 
-## Running end-to-end tests
+Pour les tests end-to-end (e2e), exécutez :
 
-For end-to-end (e2e) testing, run:
-
-```bash
 ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Angular CLI ne fournit pas de framework de test end-to-end par défaut. Vous pouvez en choisir un selon vos besoins.
